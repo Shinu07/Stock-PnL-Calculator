@@ -2,117 +2,119 @@
 
 
 :root {
-    --primary-color: #581c87;
-    --light-violet: rgb(146, 39, 223);
+  --primary-color: #581c87;
+  --light-violet: rgb(146, 39, 223);
 }
 
 body {
-    font-family:  'Raleway', sans-serif;
-    text-align: center;
-    padding: 0;
-    margin: 0;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  padding: 0;
+  margin: 0;
 }
 
-h1{
-    font-family:'Montserrat',  sans-serif;
-    color: #411265;
-text-shadow: #581c87 0.5rem 0.5rem 1.5rem;
-    margin-bottom: 3rem;
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: #411265;
+  text-shadow: #581c87 0.5rem 0.5rem 1.5rem;
+  margin-bottom: 3rem;
 }
 
 label {
-    font-weight: bold;
-    display: block;
-    margin-top: 1.5rem;
-    padding-bottom: 1rem;
+  font-weight: bold;
+  display: block;
+  margin-top: 1.5rem;
+  padding-bottom: 1rem;
 }
 
-  
-input {
-    font-size: 17px;
-    font-size: large;
-    font-family:'Raleway', sans-serif;
-    padding: 0.5rem 0.5rem;
-    margin: auto;
-    margin-top: 0.7rem;
-    border: 2.5px solid var(--primary-color);
-    border-radius: 2rem;
-    width: 100%;
-    min-width: 150px;
-    max-width: 258px;
-    display: block;
-  }
-  
-  #submit-btn {
-    background: var(--light-violet);
-    border: none;
-    color: #fff;
-    padding: 0.7rem 1rem;
-    border-radius: 0.5rem;
-    font-size: large;
-    cursor: pointer;
-    outline: #fff;
-    margin: auto;
-    margin-top: 1.5rem;
-    display: block;
-    box-shadow: 2px 2.5px 10px 1.5px rgb(103, 33, 119);
-  }
-  
-  
-  #submit-btn:hover {
-      background-color: rgb(103, 33, 119);
-      color: #fff;
-      box-shadow: 2px 3px 2px 2px rgb(255, 255, 255);
-    }
-  
-    #output{
-        font-size: 3rem;
-      font-size: large;
-      margin: auto;
-      width: auto;
-      border-radius: 2rem;
-      margin-top: 2rem;
-      padding: 1rem;
-      font-weight: bold;
-  
-  }
 
-  
+input {
+  font-size: 17px;
+  font-size: large;
+  font-family: 'Raleway', sans-serif;
+  padding: 0.5rem 0.5rem;
+  margin: auto;
+  margin-top: 0.7rem;
+  border: 2.5px solid var(--primary-color);
+  border-radius: 2rem;
+  width: 100%;
+  min-width: 150px;
+  max-width: 258px;
+  display: block;
+}
+
+#submit-btn {
+  background: var(--light-violet);
+  border: none;
+  color: #fff;
+  padding: 0.7rem 1rem;
+  border-radius: 0.5rem;
+  font-size: large;
+  cursor: pointer;
+  outline: #fff;
+  margin: auto;
+  margin-top: 1.5rem;
+  display: block;
+  box-shadow: 2px 2.5px 10px 1.5px rgb(103, 33, 119);
+}
+
+
+#submit-btn:hover {
+  background-color: rgb(103, 33, 119);
+  color: #fff;
+  box-shadow: 2px 3px 2px 2px rgb(255, 255, 255);
+}
+
+#output {
+  font-size: 3rem;
+  font-size: large;
+  margin: auto;
+  width: auto;
+  border-radius: 2rem;
+  margin-top: 2rem;
+  padding: 1rem;
+  font-weight: bold;
+
+}
+
+
 a,
 li {
-    display: inline;
-    margin: 0.5rem;
-    color: #fff;
-    text-align: center;
-    list-style: none;
-    text-decoration: none;
+  display: inline;
+  margin: 0.5rem;
+  color: #fff;
+  text-align: center;
+  list-style: none;
+  text-decoration: none;
 }
 
 
 footer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: var(--primary-color);
-    text-align: center;
-    height: 80px;
-    margin-top: 5rem;
-    margin-bottom: 0rem;
-    padding: 0.5rem 0.5rem;
-    border-top-left-radius: 1.1rem;
-    border-top-right-radius: 1.1rem;
-  
-  }
-  
-  .link {
-    color: white;
-  
-  }
-  
-  .list-unordered {
-    margin: 1rem;
-  }
-  
-  
-  
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--primary-color);
+  text-align: center;
+  height: 80px;
+  margin-top: 5rem;
+  margin-bottom: 0rem;
+  padding: 0.5rem 0.5rem;
+  padding-left: 0rem;
+  border-top-left-radius: 1.1rem;
+  border-top-right-radius: 1.1rem;
+
+}
+
+.link {
+  color: white;
+
+}
+
+.list-unordered {
+  display: block;
+  margin: auto;
+  margin-top: 1.5rem;
+  text-align: center;
+  padding-left: 0px;
+}
